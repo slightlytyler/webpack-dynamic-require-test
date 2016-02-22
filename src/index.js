@@ -1,4 +1,4 @@
-var assets = require.context('./assets',false ,/^\.\//);
+var assets = require.context('./assets', false, /^\.\//);
 
 console.log(assets('./a.png'));
 console.log(assets('./b.png'));
